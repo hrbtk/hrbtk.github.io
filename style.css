@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'JetBrains Mono', monospace;
   background-color: rgb(34, 35, 36);
   color: rgb(186, 186, 186);
+  font-size: 2vh;
 }
 
 .container {
