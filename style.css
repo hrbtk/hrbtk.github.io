@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap");
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: rgb(34, 35, 36);
   color: rgb(186, 186, 186);
 }
@@ -14,24 +14,48 @@ body {
   justify-content: space-around;
 }
 
-.row {
+.row1 {
+  display: flex;
+  flex-flow: column;
+  width: 100dvw;
+  height: 50dvh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#time,
+#date {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+#time {
+  color: rgb(119, 184, 105);
+  font-size: 10vh;
+}
+
+#date {
+  font-size: 5vh;
+}
+
+.row2 {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
   width: 100dvw;
+  height: 50dvh;
+  justify-content: center;
 }
 
 .section {
-  /* background: tomato; */
-  border: 1px solid black;
-  height: calc(50dvh - 2px);
-  flex: 1;
-
+  /* flex: 1; */
 
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 ul {
